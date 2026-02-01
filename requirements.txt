@@ -6,3 +6,4 @@ matplotlib
 xgboost
 joblib
 streamlit
+altair.vegalite.v4
