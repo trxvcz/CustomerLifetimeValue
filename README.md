@@ -7,7 +7,6 @@
 
 ## Project Overview
 This project is an end-to-end Machine Learning solution designed to predict the **Customer Lifetime Value (CLV)** for an insurance company. By accurately forecasting CLV, the business can identify high-value customers, optimize marketing strategies, and improve retention efforts.
-
 The solution is not just a notebook; it is a production-ready **REST API** wrapped in a **Docker container**, making it platform-independent and easy to deploy.
 
 ## Key Features
@@ -54,6 +53,13 @@ Key drivers of CLV identified:
 ├── results.png                  # Model performance visualization
 └── README.md                    # Project documentation
 ```
+## Data Source
+The dataset used in this project is the **IBM Watson Marketing Customer Value Data**.
+It contains information about customer demographics, policy details, and claim amounts.
+
+* **Original Source**: [Kaggle - IBM Watson Marketing Customer Value Data](https://www.kaggle.com/datasets/pankajjsh06/ibm-watson-marketing-customer-value-data)
+* **File**: `data/WA_Fn-UseC_-Marketing-Customer-Value-Analysis.csv`
+
 
 ## How to Run
 ### 1. Using Docker
